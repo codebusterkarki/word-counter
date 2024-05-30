@@ -1,0 +1,66 @@
+body{
+    padding: 22px;
+   height: 200px;
+   width: 3000px;
+   background-size:cover ;
+   background-image:url(background3.webp);
+   background-position: center;
+}
+
+
+h1{
+    font-style: italic;
+    font-size: 60px; 
+margin-left: 200px;
+display: flex;
+height: 40%;
+width: 1000px;
+padding-left: 500px;
+padding-top:30px;
+ text-align: center;
+font-family: cursive;
+background-color: rgb(214, 233, 104);
+box-shadow: 0 0 60px rgba(23, 14, 151, 0.5);
+
+}
+textarea{
+    font-family: cursive;
+    margin-left:600px ;
+    display: flex;
+    width: 600px; /* Set the width */
+  height: 250px; /* Set the height */
+  padding: 10px; /* Add some padding inside */
+  font-size: 20px; /* Set the font size */
+  border: 4px solid #ccc; /* Add a border */
+  border-radius: 5px; /* Add some border radius for rounded corners */
+  resize: vertical; /* Allow vertical resizing */
+  resize: both;
+}
+textarea{
+    outline:black; /* Remove default focus outline */
+    border-color: #10bdbd; /* Change border color on focus */
+    box-shadow: 0 0 90px rgba(0, 255, 213, 0.5); /* Add a box-shadow on focus */
+    transition: background-color 2s ease-out 100ms
+}
+textarea:hover{
+    background-color: rgb(139, 197, 132);
+
+}
+   
+h2{
+    font-size: 30px;
+    font-family: cursive;
+    font-style: oblique 40deg;
+    margin-left: 400px;
+    border-color: #10bdbd;
+    display: flex;
+    height: 20%;
+    width: 800px;
+    padding-left: 340px;
+    padding-top:30px;
+    text-align: center;
+ border: 3px solid rgb(58, 165, 207);
+ background-position: 34%;
+ background-color: rgb(104, 233, 233);
+}
+
